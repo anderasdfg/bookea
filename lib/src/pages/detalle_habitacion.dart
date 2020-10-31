@@ -206,4 +206,5 @@ class DetalleHab extends StatelessWidget {
       ),
     );
   }
+  
 }

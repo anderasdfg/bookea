@@ -5,7 +5,7 @@ class _MenuProvider{
 
   _MenuProvider(){
     cargarData();
-      }
+  }
     
       void cargarData() {
         rootBundle.loadString('data/menu_opts.json')
