@@ -29,6 +29,7 @@ class DetalleHab extends StatelessWidget {
                 _tarjetasHabitaciones(),
                 SizedBox( height: 20.0),
                 _botonPagar(),
+                SizedBox( height: 20.0),
               ]
             ),
           ),
@@ -206,5 +207,5 @@ class DetalleHab extends StatelessWidget {
       ),
     );
   }
-  
+
 }

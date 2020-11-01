@@ -72,7 +72,8 @@ class DetalleHotel extends StatelessWidget {
                 SizedBox( height: 30.0),
                 Text("Habitaciones", style: TextStyle( fontSize: 30.0 , fontWeight: FontWeight.bold ), overflow: TextOverflow.ellipsis,),
                 SizedBox( height: 10.0),
-                _tarjetasHabitaciones()
+                _tarjetasHabitaciones(),
+                SizedBox( height: 20.0),
               ],
             ),
           )
@@ -100,7 +101,7 @@ class DetalleHotel extends StatelessWidget {
                   ),
                 )
             );
-            
+
           },
           itemCount: 5,
           itemWidth: 300.0,
